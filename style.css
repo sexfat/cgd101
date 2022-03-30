@@ -1,10 +1,12 @@
 body {
    font-size: 16px;
-   background-color: #333;
+   background-color: #eee;
    font-family: Arial, Helvetica, sans-serif;
    font-weight: 400;
    color: #fff;
 }
+
+/* header */
 
 .wrapper {
    width:  1200px;
@@ -15,3 +17,70 @@ body {
 .wrapper nav ul li{
   width: 100px;
 } 
+
+
+/* footer */
+
+h2 {
+  font-size: 45px;
+}
+h3 {
+   font-size: 38px;
+ }
+ h4 {
+   font-size: 30px;
+ }
+ h5 {
+   font-size: 24px;
+ }
+
+.primary_color {
+   color : #333
+}
+.second_color {
+
+   color : red
+}
+
+
+.btn {
+   width: 100px; 
+   padding: 10px;
+   text-align: center;
+   cursor: pointer;
+}
+ .btn_blue {
+      background-color: blue;
+      color :#fff;
+ }
+
+ .btn_green {
+   background-color: green;
+   color :#fff;
+   transition: .4s all ease;
+}
+
+.btn_green:hover {
+   background-color:aquamarine;
+   color :#fff;
+
+}
+
+.btn_outline {
+    background-color: initial;
+    border:  1px solid green; 
+    color: green;
+}
+.border_r{
+  border-radius: 5px;
+}
+
+.mt_10 {
+  margin-top: 10px;
+
+}
+
+
+    
+
+
